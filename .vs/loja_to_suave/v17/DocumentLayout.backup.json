@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\fornecedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\cadastro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\cadastro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\cadastro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\cadastro_clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|c:\\users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C3D4207-89A7-4ED6-879E-DE3C8EA76B69}|loja_to_suave\\loja_to_suave.csproj|solutionrelative:loja_to_suave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Form1.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Form1.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Form1.cs",
+              "RelativeToolTip": "loja_to_suave\\Form1.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIA9wC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:22:50.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Form1.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Form1.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Form1.cs [Design]",
+              "RelativeToolTip": "loja_to_suave\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:22:47.74Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Program.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Program.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Program.cs",
+              "RelativeToolTip": "loja_to_suave\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswBIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:57:04.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fornecedores.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Fornecedores.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Fornecedores.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Fornecedores.cs",
+              "RelativeToolTip": "loja_to_suave\\Fornecedores.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwHwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:02:26.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fornecedores.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Fornecedores.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Fornecedores.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Fornecedores.cs [Design]",
+              "RelativeToolTip": "loja_to_suave\\Fornecedores.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:39:28.639Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cadastro_clientes.cs",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Cadastro_clientes.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Cadastro_clientes.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Cadastro_clientes.cs",
+              "RelativeToolTip": "loja_to_suave\\Cadastro_clientes.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAhwI4AAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:02:47.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cadastro_clientes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Cadastro_clientes.cs",
+              "RelativeDocumentMoniker": "loja_to_suave\\Cadastro_clientes.cs",
+              "ToolTip": "C:\\Users\\victor.cneto1\\source\\repos\\loja_to_suave\\loja_to_suave\\Cadastro_clientes.cs [Design]",
+              "RelativeToolTip": "loja_to_suave\\Cadastro_clientes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T11:54:23.617Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
