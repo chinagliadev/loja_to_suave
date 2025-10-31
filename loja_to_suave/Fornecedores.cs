@@ -13,9 +13,11 @@ namespace loja_to_suave
 {
     public partial class Fornecedores : Form
     {
+        public int IdFornecedorSelecionado { get; private set; }
+        public string NomeFornecedorSelecionado { get; private set; }
         public Fornecedores()
         {
-            InitializeComponent();
+        InitializeComponent();
         }
 
         private string LimparDocumento(string texto)
@@ -82,20 +84,28 @@ namespace loja_to_suave
                 return;
             }
 
-            cadastrarFornecedor(razao_social, cnpj, nome, email, telefone, endereco, rua, bairro, numero, complemento, obs);
-            MessageBox.Show("Fornecedor cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            long id = cadastrarFornecedor(razao_social, cnpj, nome, email, telefone, endereco, rua, bairro, numero, complemento, obs);
+
+            if (id > 0)
+            {
+                IdFornecedorSelecionado = (int)id; //
+                NomeFornecedorSelecionado = razao_social; 
+                MessageBox.Show("Fornecedor cadastrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
 
 
         }
 
-        public void cadastrarFornecedor(string razao_social, string cnpj, string nome, string email, string telefone, string endereco, string rua, string bairro, string numero, string complemento = null, string obs = null)
+        public long cadastrarFornecedor(string razao_social, string cnpj, string nome, string email, string telefone, string endereco, string rua, string bairro, string numero, string complemento = null, string obs = null)
         {
-            string sqlInserirFornecedor = "INSERT INTO Fornecedores " +
-                "(razao_social, cnpj, contato_nome, telefone, email, endereco, rua, bairro, numero, complemento, observacao) " +
-                "VALUES " +
-                "(@razao_social, @cnpj, @nome_contato ,@telefone, @email, @endereco, @rua, @bairro, @numero, @complemento, @obs)";
+            string sqlInserirFornecedor = @"INSERT INTO fornecedores 
+        (razao_social, cnpj, contato_nome, telefone, email, endereco, rua, bairro, numero, complemento, observacao)
+        VALUES (@razao_social, @cnpj, @nome_contato, @telefone, @email, @endereco, @rua, @bairro, @numero, @complemento, @obs)";
 
             Conexao conexao = new Conexao();
+            long idFornecedor = 0;
 
             try
             {
@@ -103,7 +113,7 @@ namespace loja_to_suave
                 {
                     using (var cmd = new MySql.Data.MySqlClient.MySqlCommand(sqlInserirFornecedor, conn))
                     {
-                        cmd.Parameters.AddWithValue("@razao_social", razao_social); 
+                        cmd.Parameters.AddWithValue("@razao_social", razao_social);
                         cmd.Parameters.AddWithValue("@cnpj", cnpj);
                         cmd.Parameters.AddWithValue("@nome_contato", nome);
                         cmd.Parameters.AddWithValue("@telefone", telefone);
@@ -112,35 +122,51 @@ namespace loja_to_suave
                         cmd.Parameters.AddWithValue("@rua", rua);
                         cmd.Parameters.AddWithValue("@bairro", bairro);
                         cmd.Parameters.AddWithValue("@numero", numero);
-
-           
                         cmd.Parameters.AddWithValue("@complemento", (object)complemento ?? DBNull.Value);
                         cmd.Parameters.AddWithValue("@obs", (object)obs ?? DBNull.Value);
 
-                       
                         cmd.ExecuteNonQuery();
 
-                    } 
+                        idFornecedor = cmd.LastInsertedId;
+                    }
                 }
-                txtRazaoSocial.Clear();
-                txtCpnjFornecedor.Clear();
-                txtContatoNomeFornecedor.Clear();
-                txtEmailFornecedor.Clear();
-                txtTelefoneFornecedor.Clear();
-                txtEnderecoFornecedor.Clear();
-                txtRuaFornecedor.Clear();
-                txtBairroFornecedor.Clear();
-                txtNumeroFornecedor.Clear();
-                txtComplementoFornecedor.Clear();
-                txtObservacaoFornecedor.Clear();
 
+                return idFornecedor;
             }
             catch (Exception ex)
             {
-               
-                Console.WriteLine("Erro ao cadastrar fornecedor: " + ex.Message);
-               
+                MessageBox.Show("Erro ao cadastrar fornecedor: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return 0;
             }
+        }
+
+        public int BuscarIdFornecedor(string nomeFornecedor)
+        {
+            int idFornecedor = 0;
+            string sql = "SELECT id_fornecedor FROM fornecedores WHERE razao_social = @nome LIMIT 1";
+
+            Conexao conexao = new Conexao();
+
+            try
+            {
+                using (var conn = conexao.AbrirConexao())
+                {
+                    using (var cmd = new MySql.Data.MySqlClient.MySqlCommand(sql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@nome", nomeFornecedor);
+                        var resultado = cmd.ExecuteScalar();
+
+                        if (resultado != null)
+                            idFornecedor = Convert.ToInt32(resultado);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao buscar fornecedor: " + ex.Message);
+            }
+
+            return idFornecedor;
         }
 
     }

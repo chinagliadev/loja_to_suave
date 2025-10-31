@@ -46,5 +46,19 @@ namespace loja_to_suave
             fornecedores.Show();
             this.Hide();
         }
+
+        private void cadastroProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cadastrar_produto cadastrar_Produto = new Cadastrar_produto();
+            cadastrar_Produto.Show();
+            this.Hide();
+        }
+
+        private void gerenciamentosDeProdutosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Gerenciamento_Produtos gerenciamento_Produtos = new Gerenciamento_Produtos();
+            gerenciamento_Produtos.Show();
+            this.Hide();
+        }
     }
 }

@@ -42,3 +42,5 @@ C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\bin\Debug\System
 C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\obj\Debug\loja_to_.E3435A4D.Up2Date
 C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\obj\Debug\loja_to_suave.Fornecedores.resources
+C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\obj\Debug\loja_to_suave.Cadastrar_produto.resources
+C:\Users\victor.cneto1\source\repos\loja_to_suave\loja_to_suave\obj\Debug\loja_to_suave.Gerenciamento_Produtos.resources

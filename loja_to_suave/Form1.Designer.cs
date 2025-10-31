@@ -36,6 +36,7 @@
             this.cadastroClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroFornecedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gerenciamentosDeProdutosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historicoDeCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -77,7 +78,8 @@
             this.cadastrarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cadastroClienteToolStripMenuItem,
             this.cadastroFornecedorToolStripMenuItem,
-            this.cadastroProdutoToolStripMenuItem});
+            this.cadastroProdutoToolStripMenuItem,
+            this.gerenciamentosDeProdutosToolStripMenuItem});
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(99, 29);
             this.cadastrarToolStripMenuItem.Text = "Cadastro";
@@ -86,7 +88,7 @@
             // 
             this.cadastroClienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cadastroClienteToolStripMenuItem.Image")));
             this.cadastroClienteToolStripMenuItem.Name = "cadastroClienteToolStripMenuItem";
-            this.cadastroClienteToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
+            this.cadastroClienteToolStripMenuItem.Size = new System.Drawing.Size(261, 30);
             this.cadastroClienteToolStripMenuItem.Text = "Cadastro Cliente";
             this.cadastroClienteToolStripMenuItem.Click += new System.EventHandler(this.cadastroClienteToolStripMenuItem_Click);
             // 
@@ -94,7 +96,7 @@
             // 
             this.cadastroFornecedorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cadastroFornecedorToolStripMenuItem.Image")));
             this.cadastroFornecedorToolStripMenuItem.Name = "cadastroFornecedorToolStripMenuItem";
-            this.cadastroFornecedorToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
+            this.cadastroFornecedorToolStripMenuItem.Size = new System.Drawing.Size(261, 30);
             this.cadastroFornecedorToolStripMenuItem.Text = "Cadastro Fornecedor";
             this.cadastroFornecedorToolStripMenuItem.Click += new System.EventHandler(this.cadastroFornecedorToolStripMenuItem_Click);
             // 
@@ -102,8 +104,17 @@
             // 
             this.cadastroProdutoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cadastroProdutoToolStripMenuItem.Image")));
             this.cadastroProdutoToolStripMenuItem.Name = "cadastroProdutoToolStripMenuItem";
-            this.cadastroProdutoToolStripMenuItem.Size = new System.Drawing.Size(260, 30);
+            this.cadastroProdutoToolStripMenuItem.Size = new System.Drawing.Size(261, 30);
             this.cadastroProdutoToolStripMenuItem.Text = "Cadastro Produto";
+            this.cadastroProdutoToolStripMenuItem.Click += new System.EventHandler(this.cadastroProdutoToolStripMenuItem_Click);
+            // 
+            // gerenciamentosDeProdutosToolStripMenuItem
+            // 
+            this.gerenciamentosDeProdutosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("gerenciamentosDeProdutosToolStripMenuItem.Image")));
+            this.gerenciamentosDeProdutosToolStripMenuItem.Name = "gerenciamentosDeProdutosToolStripMenuItem";
+            this.gerenciamentosDeProdutosToolStripMenuItem.Size = new System.Drawing.Size(261, 30);
+            this.gerenciamentosDeProdutosToolStripMenuItem.Text = "Gerenciamentos Loja";
+            this.gerenciamentosDeProdutosToolStripMenuItem.Click += new System.EventHandler(this.gerenciamentosDeProdutosToolStripMenuItem_Click);
             // 
             // historicoDeCompraToolStripMenuItem
             // 
@@ -163,6 +174,7 @@
         private System.Windows.Forms.ToolStripMenuItem historicoDeCompraToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem gerenciamentosDeProdutosToolStripMenuItem;
     }
 }
 

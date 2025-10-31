@@ -95,6 +95,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cadastrar_produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastrar_produto.Designer.cs">
+      <DependentUpon>Cadastrar_produto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cadastro_clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,8 +120,17 @@
     <Compile Include="Fornecedores.Designer.cs">
       <DependentUpon>Fornecedores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gerenciamento_Produtos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerenciamento_Produtos.Designer.cs">
+      <DependentUpon>Gerenciamento_Produtos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cadastrar_produto.resx">
+      <DependentUpon>Cadastrar_produto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cadastro_clientes.resx">
       <DependentUpon>Cadastro_clientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fornecedores.resx">
       <DependentUpon>Fornecedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerenciamento_Produtos.resx">
+      <DependentUpon>Gerenciamento_Produtos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

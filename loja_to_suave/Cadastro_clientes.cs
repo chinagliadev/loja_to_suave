@@ -158,6 +158,8 @@ namespace loja_to_suave
             }
         }
 
+
+
         private void cadastroFornecedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Fornecedores fornecedores = new Fornecedores();
